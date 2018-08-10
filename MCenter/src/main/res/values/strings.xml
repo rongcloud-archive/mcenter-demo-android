@@ -1,0 +1,15 @@
+<resources>
+    <string name="mc_text_title">消息</string>
+    <string name="mc_text_trade">交易信息</string>
+    <string name="mc_text_notice">系统通知</string>
+    <string name="mc_text_event">活动福利</string>
+    <string name="mc_text_interaction">互动消息</string>
+    <string name="mc_text_community">社区消息</string>
+    <string name="mc_msg_item_my_friend">我的好友</string>
+
+    <string name="mc_someone_followed_you">刚刚关注了你</string>
+    <string name="mc_someone_praised_you">刚刚为你点赞</string>
+    <string name="mc_someone_mentioned_you">刚刚发表了评论\@了你</string>
+    <string name="mc_click_collect">点击领取</string>
+
+</resources>

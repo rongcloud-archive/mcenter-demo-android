@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mc_someone_followed_you">Followed you</string>
+    <string name="mc_someone_praised_you">Liked you</string>
+    <string name="mc_someone_mentioned_you">Published a comment</string>
+    <string name="mc_click_collect">Click and collect</string>
+</resources>

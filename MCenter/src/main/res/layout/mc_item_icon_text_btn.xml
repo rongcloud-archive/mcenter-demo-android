@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mc_normal_width"
+    android:layout_height="@dimen/mc_icon_text_btn_h"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:minHeight="@dimen/mc_icon_text_btn_h"
+    android:minWidth="@dimen/mc_normal_width"
+    android:background="@drawable/mc_shape_bg_white">
+
+    <io.rong.imkit.widget.AsyncImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/mc_icon_text_btn_icon_w"
+        android:layout_height="@dimen/mc_icon_text_btn_icon_w"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mc_icon_text_btn_margin_left"
+        app:RCDefDrawable="@drawable/mc_default_place_holder_square"/>
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mc_icon_text_btn_text_margin_top"
+        android:layout_marginLeft="@dimen/mc_icon_text_btn_text_margin_left"
+        android:layout_marginRight="@dimen/mc_icon_text_btn_text_margin_right"
+        android:layout_toRightOf="@id/img_icon"
+        android:maxLines="2"
+        android:textColor="#262626"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_text"
+        android:layout_marginRight="@dimen/mc_icon_text_btn_margin_right"
+        android:layout_marginTop="@dimen/mc_icon_text_btn_margin_top"
+        android:textColor="#3A91F3"
+        android:textSize="14sp" />
+
+</RelativeLayout>

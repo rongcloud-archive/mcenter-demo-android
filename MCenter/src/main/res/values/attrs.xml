@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="mc_HeaderChainsView">
+
+        <attr name="mc_portrait_src" format="integer" />
+        <attr name="mc_nick_name" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="mc_MCImageView">
+
+        <attr name="mc_defDrawable" format="reference" />
+        <attr name="mc_cornerRadius" format="dimension" />
+        <attr name="mc_corners">
+            <flag name="topleft" value="1"/>
+            <flag name="topright" value="2"/>
+            <flag name="bottomleft" value="4"/>
+            <flag name="bottomright" value="8"/>
+        </attr>
+
+        <attr name="mc_shape">
+            <flag name="square" value="0" />
+            <flag name="circle" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mc_normal_width"
+    android:layout_height="@dimen/mc_img_text_btn_h"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/mc_shape_bg_white"
+    android:minHeight="@dimen/mc_img_text_btn_h"
+    android:minWidth="@dimen/mc_normal_width">
+
+    <io.rong.mcenter.messages.views.MCImageView
+        android:id="@+id/img_cover"
+        android:layout_width="@dimen/mc_normal_width"
+        android:layout_height="@dimen/mc_img_text_btn_img_h"
+        android:layout_alignParentTop="true"
+        app:mc_defDrawable="@drawable/mc_default_place_holder_banner"
+        app:mc_cornerRadius="@dimen/mc_img_corner_radius"
+        app:mc_corners="topleft|topright"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_cover"
+        android:paddingLeft="@dimen/mc_img_text_btn_txt_margin_left"
+        android:paddingRight="@dimen/mc_img_text_btn_txt_margin_right"
+        android:paddingTop="@dimen/mc_img_text_btn_txt_margin_top"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_alignRight="@id/img_cover"
+        android:paddingRight="@dimen/mc_img_text_btn_margin_right"
+        android:paddingTop="@dimen/mc_img_text_btn_margin_top"
+        android:maxLines="1"
+        android:textColor="#3A91F3"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8F8F8</color>
+    <color name="colorPrimaryDark">#CBCBCB</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="color_item_hover">#DFDFDD</color>
+    <color name="color_divider_thick_line">#F2F2F3</color>
+    <color name="color_remind_red">#cb120f</color>
+    <color name="color_bg_btn_select">#1A000000</color>
+    <color name="color_bg_title">#3A91F3</color>
+    <color name="color_btn_enable">@color/color_bg_title</color>
+    <color name="color_btn_disable">#80ffffff</color>
+    <color name="color_bg_header">#F8F8F8</color>
+    <color name="color_header_text">#959595</color>
+
+    <color name="color_tab_selected">#4597E2</color>
+    <color name="color_tab_normal">#959595</color>
+    <color name="color_bg_fragment">#FFF0F0F0</color>
+    <color name="color_bg_tab_normal">#F9F9F9</color>
+    <color name="color_bg_tab_pressed">#E6E6E6</color>
+</resources>

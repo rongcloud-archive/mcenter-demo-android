@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mc_normal_width"
+    android:layout_height="@dimen/mc_portrait_name_h"
+    android:minWidth="@dimen/mc_normal_width"
+    android:minHeight="@dimen/mc_portrait_name_h"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/mc_shape_bg_white">
+
+    <io.rong.imkit.widget.AsyncImageView
+        android:id="@+id/img_portrait"
+        android:layout_width="@dimen/mc_portrait_name_img_w"
+        android:layout_height="@dimen/mc_portrait_name_img_w"
+        android:layout_marginLeft="@dimen/mc_portrait_name_img_margin_left"
+        android:layout_centerVertical="true"
+        app:RCDefDrawable="@drawable/mc_default_place_holder_square"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/img_portrait"
+        android:layout_marginTop="@dimen/mc_portrait_name_txt_margin_top"
+        android:text="name"
+        android:layout_marginLeft="@dimen/mc_portrait_name_txt_margin_left"
+        android:textColor="@color/mc_text_title_color"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/img_portrait"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="@dimen/mc_portrait_name_content_margin_top"
+        android:layout_marginLeft="@dimen/mc_portrait_name_content_margin_left"
+        android:text="content"
+        android:textSize="14sp"
+        android:textColor="@color/mc_text_content_color"/>
+
+</RelativeLayout>

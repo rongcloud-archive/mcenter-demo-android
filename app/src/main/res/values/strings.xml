@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">消息中心</string>
+    <string name="text_title">消息</string>
+    <string name="text_trade">交易信息</string>
+    <string name="text_notice">系统通知</string>
+    <string name="text_event">活动福利</string>
+    <string name="text_interaction">互动消息</string>
+    <string name="text_community">社区消息</string>
+    <string name="msg_item_my_friend">我的好友</string>
+
+    <string name="text_main">首页</string>
+    <string name="text_discover">发现</string>
+    <string name="text_me">我的</string>
+</resources>

@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "27.0.0"
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    resourcePrefix "mc"
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':IMKit')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+}
+
+def JAR_NAME = "MCenter"
+def OUTPUT_PATH = "build/libs/"
+
+task makeJar(type: Jar) {
+
+    delete OUTPUT_PATH + JAR_NAME + '.jar'
+
+    from zipTree(file('build/intermediates/bundles/release/classes.jar'))
+
+    exclude('**/BuildConfig.class')
+    exclude('**/BuildConfig.class\$*.class')
+    exclude('**/R.class')
+    exclude('**/R\$*.class')
+
+    baseName JAR_NAME
+    destinationDir file(OUTPUT_PATH)
+}
+
+makeJar.dependsOn(build)

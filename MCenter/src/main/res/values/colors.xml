@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mc_colorPrimary">#F8F8F8</color>
+    <color name="mc_colorPrimaryDark">#CBCBCB</color>
+    <color name="mc_colorAccent">#FF4081</color>
+    
+    <color name="mc_color_bg_header">#F8F8F8</color>
+    <color name="mc_color_header_text">#959595</color>
+    <color name="mc_color_bg_im_item_pressed">#dfdfdd</color>
+    <color name="mc_color_bg_default_img">#666666</color>
+
+    <color name="mc_bg_white">#FFFFFF</color>
+    <color name="mc_bg_default_image">#666666</color>
+    <color name="mc_text_content_color">#939393</color>
+    <color name="mc_text_title_color">#262626</color>
+</resources>

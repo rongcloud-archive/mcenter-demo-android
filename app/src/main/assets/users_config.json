@@ -1,0 +1,32 @@
+{
+  "h-users": [
+    {
+      "id": "rong_system_trading",
+      "name": "交易信息",
+      "portrait": "https://rongcloud-res.cn.ronghub.com/6fb522d997abb6e7fda21b090593b8a6"
+    },
+    {
+      "id": "rong_system_notice",
+      "name": "系统通知",
+      "portrait": "https://rongcloud-res.cn.ronghub.com/029050d88b0d75a3507550eaf7ce63ed"
+    },
+    {
+      "id": "rong_system_event",
+      "name": "活动福利",
+      "portrait": "https://rongcloud-res.cn.ronghub.com/125c94ebe629dc0b539f2126f01a105b"
+    }
+  ],
+  "v-users": [
+    {
+      "id": "rong_system_community",
+      "name": "社区消息",
+      "portrait": "https://rongcloud-res.cn.ronghub.com/381b9fe0009d146035d6356e30cd2a4a"
+    },
+    {
+      "id": "rong_system_interaction",
+      "name": "互动消息",
+      "portrait": "https://rongcloud-res.cn.ronghub.com/808ce1ebad4aba400491ce0005ea75de"
+    }
+  ],
+  "display-friends": true
+}

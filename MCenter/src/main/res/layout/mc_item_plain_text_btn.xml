@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mc_normal_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/mc_shape_bg_white">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/mc_normal_width"
+        android:paddingTop="@dimen/mc_plain_text_margin_top"
+        android:paddingLeft="@dimen/mc_plain_text_margin_left"
+        android:paddingRight="@dimen/mc_plain_text_margin_right"
+        android:textColor="#505050"
+        android:textSize="14sp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="@dimen/mc_plain_text_divider_w"
+        android:layout_height="@dimen/mc_plain_text_divider_h"
+        android:background="#E3E3E3"
+        android:layout_below="@id/tv_content"
+        android:layout_margin="@dimen/mc_plain_text_divider_margin"/>
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_content"
+        android:paddingRight="@dimen/mc_plain_text_btn_margin_right"
+        android:layout_below="@id/divider"
+        android:paddingBottom="@dimen/mc_plain_text_btn_margin_bottom"
+        android:textColor="#3A91F3"
+        android:textSize="14sp"/>
+
+</RelativeLayout>

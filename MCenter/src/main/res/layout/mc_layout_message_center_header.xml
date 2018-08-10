@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mc_header_height"
+    android:background="@color/mc_color_bg_header"
+    android:minHeight="@dimen/mc_header_height">
+
+    <io.rong.mcenter.views.HeaderChainsView
+        android:id="@+id/view_trade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/view_notice"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mc_nick_name="@string/mc_text_trade"
+        app:mc_portrait_src="@drawable/ic_header_trade" />
+
+    <io.rong.mcenter.views.HeaderChainsView
+        android:id="@+id/view_notice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/view_trade"
+        app:layout_constraintRight_toLeftOf="@+id/view_event"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mc_portrait_src="@drawable/ic_header_notice"
+        app:mc_nick_name="@string/mc_text_notice"/>
+
+    <io.rong.mcenter.views.HeaderChainsView
+        android:id="@+id/view_event"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/view_notice"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mc_portrait_src="@drawable/ic_header_event"
+        app:mc_nick_name="@string/mc_text_event"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/mc_selector_bg_im_item"
+    android:layout_height="@dimen/mc_header_im_height">
+
+    <io.rong.imkit.widget.AsyncImageView
+        android:id="@+id/img_portrait"
+        android:layout_width="@dimen/mc_im_item_img_width"
+        android:layout_height="@dimen/mc_im_item_img_width"
+        android:layout_marginLeft="@dimen/mc_im_item_margin_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mc_im_item_text_margin_left"
+        android:layout_marginTop="@dimen/mc_im_item_text_margin_top"
+        android:gravity="left"
+        android:maxLines="1"
+        android:maxWidth="@dimen/mc_im_item_text_max_width"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@id/img_portrait"
+        app:layout_constraintTop_toBottomOf="@+id/layout_title" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mc_im_item_text_margin_left"
+        app:layout_constraintLeft_toRightOf="@id/img_portrait"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/img_portrait">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="@string/mc_msg_item_my_friend"
+            android:textColor="#353535"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/tv_time"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="6月27日"
+            android:gravity="center"
+            android:textColor="#8F8E94"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@id/tv_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_unread_num"
+        android:layout_width="@dimen/mc_tv_unread_num_width"
+        android:layout_height="@dimen/mc_tv_unread_num_width"
+        android:layout_marginRight="@dimen/mc_tv_unread_num_margin"
+        android:layout_marginTop="@dimen/mc_tv_unread_num_margin"
+        android:background="@drawable/ic_unread_remind_list_count"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:visibility="gone"
+        app:layout_constraintRight_toLeftOf="@id/tv_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

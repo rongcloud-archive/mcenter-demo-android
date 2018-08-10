@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/mc_normal_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/mc_shape_bg_white">
+
+    <io.rong.mcenter.messages.views.MCImageView
+        android:id="@+id/img_cover"
+        android:layout_width="@dimen/mc_normal_width"
+        android:layout_height="@dimen/mc_img_text_img_h"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:mc_cornerRadius="@dimen/mc_img_corner_radius"
+        app:mc_corners="topleft|topright"
+        app:mc_defDrawable="@drawable/mc_default_place_holder_banner" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_cover"
+        android:paddingLeft="@dimen/mc_img_text_margin_left"
+        android:paddingRight="@dimen/mc_img_text_margin_right"
+        android:paddingTop="@dimen/mc_img_text_margin_top"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:maxWidth="@dimen/mc_normal_width"
+        android:paddingBottom="@dimen/mc_img_text_img_margin_bottom"
+        android:paddingLeft="@dimen/mc_img_text_img_margin_left"
+        android:paddingRight="@dimen/mc_img_text_img_margin_right"
+        android:paddingTop="@dimen/mc_img_text_img_margin_top"
+        android:textColor="#7F7F7F"
+        android:textSize="15sp" />
+
+</RelativeLayout>

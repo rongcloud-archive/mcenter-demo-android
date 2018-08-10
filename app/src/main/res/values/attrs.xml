@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HeaderChainsView">
+
+        <attr name="portrait_src" format="integer" />
+        <attr name="nick_name" format="reference|string" />
+    </declare-styleable>
+</resources>

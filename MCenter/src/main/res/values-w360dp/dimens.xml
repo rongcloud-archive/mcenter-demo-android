@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mc_img_corner_radius">5dp</dimen>
+
+    <dimen name="mc_normal_width">343dp</dimen>
+    <dimen name="mc_icon_text_btn_h">105dp</dimen>
+    <dimen name="mc_icon_text_btn_icon_w">70dp</dimen>
+    <dimen name="mc_icon_text_btn_margin_left">17dp</dimen>
+    <dimen name="mc_icon_text_btn_text_margin_top">17.5dp</dimen>
+    <dimen name="mc_icon_text_btn_text_margin_left">12dp</dimen>
+    <dimen name="mc_icon_text_btn_text_margin_right">12dp</dimen>
+    <dimen name="mc_icon_text_btn_margin_right">17dp</dimen>
+    <dimen name="mc_icon_text_btn_margin_top">5dp</dimen>
+
+    <dimen name="mc_img_banner_text_h">137dp</dimen>
+    <dimen name="mc_img_banner_text_img_h">95dp</dimen>
+    <dimen name="mc_img_banner_text_margin_top">12dp</dimen>
+    <dimen name="mc_img_banner_text_margin_left">19dp</dimen>
+    <dimen name="mc_img_banner_text_margin_right">19dp</dimen>
+
+    <dimen name="mc_img_text_img_h">190dp</dimen>
+    <dimen name="mc_img_text_margin_left">19dp</dimen>
+    <dimen name="mc_img_text_margin_right">19dp</dimen>
+    <dimen name="mc_img_text_margin_top">12dp</dimen>
+    <dimen name="mc_img_text_img_margin_bottom">14dp</dimen>
+    <dimen name="mc_img_text_img_margin_left">19dp</dimen>
+    <dimen name="mc_img_text_img_margin_right">9dp</dimen>
+    <dimen name="mc_img_text_img_margin_top">9dp</dimen>
+
+    <dimen name="mc_img_text_btn_h">264dp</dimen>
+    <dimen name="mc_img_text_btn_img_h">190dp</dimen>
+    <dimen name="mc_img_text_btn_txt_margin_left">19dp</dimen>
+    <dimen name="mc_img_text_btn_txt_margin_right">19dp</dimen>
+    <dimen name="mc_img_text_btn_txt_margin_top">12dp</dimen>
+    <dimen name="mc_img_text_btn_margin_right">14dp</dimen>
+    <dimen name="mc_img_text_btn_margin_top">9dp</dimen>
+
+    <dimen name="mc_plain_text_margin_left">14dp</dimen>
+    <dimen name="mc_plain_text_margin_right">14dp</dimen>
+    <dimen name="mc_plain_text_margin_bottom">14dp</dimen>
+    <dimen name="mc_plain_text_margin_top">16dp</dimen>
+    <dimen name="mc_plain_text_divider_w">315dp</dimen>
+    <dimen name="mc_plain_text_divider_h">0.5dp</dimen>
+    <dimen name="mc_plain_text_divider_margin">14dp</dimen>
+    <dimen name="mc_plain_text_btn_margin_right">14dp</dimen>
+    <dimen name="mc_plain_text_btn_margin_bottom">14dp</dimen>
+
+    <dimen name="mc_portrait_name_h">80dp</dimen>
+    <dimen name="mc_portrait_name_img_w">45dp</dimen>
+    <dimen name="mc_portrait_name_img_margin_left">17dp</dimen>
+    <dimen name="mc_portrait_name_txt_margin_top">17.5dp</dimen>
+    <dimen name="mc_portrait_name_txt_margin_left">16dp</dimen>
+    <dimen name="mc_portrait_name_content_margin_left">16dp</dimen>
+    <dimen name="mc_portrait_name_content_margin_top">3dp</dimen>
+
+
+
+    <dimen name="mc_dimens_img_corner_radius">3dp</dimen>
+    <dimen name="mc_dimens_height_header">72dp</dimen>
+    <dimen name="mc_header_height">72dp</dimen>
+    <dimen name="mc_header_im_height">64dp</dimen>
+    <dimen name="mc_im_item_img_width">48dp</dimen>
+    <dimen name="mc_im_item_margin_left">14dp</dimen>
+    <dimen name="mc_im_item_text_margin_left">12dp</dimen>
+    <dimen name="mc_im_item_text_margin_top">6dp</dimen>
+    <dimen name="mc_im_item_text_max_width">180dp</dimen>
+    <dimen name="mc_tv_unread_num_width">18dp</dimen>
+    <dimen name="mc_tv_unread_num_margin">5dp</dimen>
+    <dimen name="mc_header_chains_width">56dp</dimen>
+    <dimen name="mc_header_chains_padding_left">8dp</dimen>
+    <dimen name="mc_header_chains_img_width">40dp</dimen>
+    <dimen name="mc_header_chains_img_margin_top">8dp</dimen>
+    <dimen name="mc_header_chains_unread_width">16dp</dimen>
+    <dimen name="mc_header_chains_text_margin_top">4dp</dimen>
+    <dimen name="mc_header_chains_guide_v_begin">32dp</dimen>
+
+
+</resources>

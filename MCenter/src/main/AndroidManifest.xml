@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.rong.mcenter">
+
+    <application>
+
+        <provider
+            android:name=".MCInitProvider"
+            android:authorities="${applicationId}.mcinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+</manifest>
